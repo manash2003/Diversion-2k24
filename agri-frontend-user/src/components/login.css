@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.custom-shape-divider-bottom-1706941622 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706941622 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 131px;
+}
+
+.custom-shape-divider-bottom-1706941622 .shape-fill {
+    fill: #FFFFFF;
+}
+.login{
+    font-family: 'Protest Riot', sans-serif;
+    color: white;
+
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child {
+    background: linear-gradient(#1845ad,
+            #f6232d);
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child {
+    background: linear-gradient(to right,
+            #ff512f,
+            #f09819);
+    right: -30px;
+    bottom: -80px;
+}
+
